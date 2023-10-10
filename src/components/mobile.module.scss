@@ -1,0 +1,20 @@
+#topimage{
+    width: 100%;
+
+    img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+#mainHeadlineContainer {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: calc(0.5em + 0.5vw);
+    left: 50%;
+    transform: translate(-50%);
+    gap: calc(3em + 3vw);
+  }
+  
